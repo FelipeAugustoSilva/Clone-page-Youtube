@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ /* BANNER */
+.container-banner {
+    background: #ffffff;
+    /*width: 1440px;*/
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+.menu-logo{
+   width: 130px;
+   display: flex;
+   justify-content: space-between;
+}
+.menu-sanduiche{
+    width: 20px;
+}
+.logo{
+    width: 90px;
+    height: 20px;
+}
+.lupa-img {
+    width: 19px;
+}
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+.campo-pesquisa {
+    width: 348px;
+    height: 37.5px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 50px 0px 0px 50px;
+    background: #FFFFFF;
+    
+}
+button {
+    width: 57px;
+    height: 40px;
+    
+    border-radius: 0px 50px 50px 0px;
+    background: #F8F8F8;
+    border: 1px solid rgb(112, 96, 96);
+}
+.midias {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.camera {
+    height: 25px;
+}
+.sino {
+    height: 25px;
+}
+.perfil {
+    height: 35px;
+    border-radius: 50%;
+}
+
+/*Pagina de Videos*/
+.container-pagina-videos {
+    display: flex;
+    flex-direction: row;
+}
+.video {
+   
+    margin-left: 50px;
+}
+.catalogo-video {
+    
+}
+.tamanhoVideo p {
+    font-size:  x-large;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.interatividade-video {
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.canalYoutube {
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.dadosAvatar{
+   text-align: left;
+   padding-left: 10px;
+   width: 100px;
+}
+.dadosAvatar h5{
+   font-size: larger;
+   font-weight: 300;
+}
+.dadosAvatar p{
+    font-size: small;
+    font-weight: 100;
+}
+.botaoInscreverSe{
+    margin: 5px;
+}
+.inscreverSe {
+    width: 120px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgb(112, 96, 96);
+}
+.inscreverSe img{
+    width: 22px;
+}
+.botoesSub {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.botoesSub img{
+    width: 22px;
+}
+.curtidas {
+    display: flex;
+}
+.positivo {
+    width: 60px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.negativo {
+    width: 50px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 0px 25px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compartilhamento  button{
+    width: 115px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.clipe button{
+    width: 80px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.clipe img{
+    width: 32px;
+}
+.salvar button{
+    width: 80px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.sanduiche-video button{
+    width: 55px;
+    border: 1px solid rgb(112, 96, 96);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.descricaoVideo{
+    height: 70px;
+    width: 900px;
+    margin-top: 15px;
+    background-color: rgb(231, 219, 219);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*Catalogo de videos | lateral direita*/
+
+.catalogo-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.videos {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 7px;
+}
+.video-descricao {
+    padding-left: 3px;
+}
